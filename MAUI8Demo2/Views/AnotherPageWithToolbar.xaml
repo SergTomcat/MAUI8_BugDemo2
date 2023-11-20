@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI8Demo2.Views.AnotherPageWithToolbar"
+             >
+    <VerticalStackLayout>
+        <Label 
+            Text="Page with toolbar and TWO buttons!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"  TextColor="Blue"/>
+		<Button Text="Open simple page" Clicked="Button_Clicked"/>
+	</VerticalStackLayout>
+</ContentPage>
